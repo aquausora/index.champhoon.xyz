@@ -24,7 +24,7 @@
 				scrollWheel: {
 
 					// If true, enables scrolling via the scroll wheel.
-						enabled: true,
+						enabled: false,
 
 					// Sets the scroll wheel factor. (Ideally) a value between 0 and 1 (lower = slower scroll, higher = faster scroll).
 						factor: 1
@@ -35,7 +35,7 @@
 				scrollZones: {
 
 					// If true, enables scrolling via scroll zones on the left/right edges of the scren.
-						enabled: true,
+						enabled: false,
 
 					// Sets the speed at which the page scrolls when a scroll zone is active (higher = faster scroll, lower = slower scroll).
 						speed: 15
