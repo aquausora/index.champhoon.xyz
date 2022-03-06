@@ -46,7 +46,7 @@
 				dragging: {
 
 					// If true, enables scrolling by dragging the main wrapper with the mouse.
-						enabled: false,
+						enabled: true,
 
 					// Sets the momentum factor. Must be a value between 0 and 1 (lower = less momentum, higher = more momentum, 0 = disable momentum scrolling).
 						momentum: 0.875,
@@ -93,19 +93,6 @@
 
 	// Tweaks/fixes.
 
-		// Mobile: Revert to native scrolling.
-			if (browser.mobile) {
-
-				// Disable all scroll-assist features.
-					settings.keyboardShortcuts.enabled = false;
-					settings.scrollWheel.enabled = false;
-					settings.scrollZones.enabled = false;
-					settings.dragging.enabled = false;
-
-				// Re-enable overflow on body.
-					$body.css('overflow-x', 'auto');
-
-			}
 
 		// IE: Various fixes.
 			if (browser.name == 'ie') {
