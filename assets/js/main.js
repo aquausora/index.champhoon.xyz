@@ -93,6 +93,19 @@
 
 	// Tweaks/fixes.
 
+		// Mobile: Revert to native scrolling.
+			if (browser.mobile) {
+
+				// Disable all scroll-assist features.
+					settings.keyboardShortcuts.enabled = false;
+					settings.scrollWheel.enabled = false;
+					settings.scrollZones.enabled = false;
+					settings.dragging.enabled = false;
+
+				// Re-enable overflow on body.
+					$body.css('overflow-x', 'auto');
+
+			}
 
 		// IE: Various fixes.
 			if (browser.name == 'ie') {
