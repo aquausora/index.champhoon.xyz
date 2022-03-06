@@ -218,7 +218,7 @@ input, select, textarea {
 			z-index: -1;
 			background-attachment: fixed;
 			background-color: #e1e6e1;
-			background-image: url("../../images/overlay.png"), url("../../images/bg.jpg");
+			background-image: url("../../images/overlay.png"), url("../../images/bg.svg");
 			background-repeat: repeat, repeat-x;
 			background-size: 128px 128px, cover;
 		}
@@ -3599,7 +3599,7 @@ input, select, textarea {
 			bottom: -3rem;
 			right: 0;
 			font-size: 0.8rem;
-			color: rgba(46, 43, 55, 0.375);
+			color: rgba(255, 255, 255, 0.85);
 			margin-bottom: 0;
 		}
 
