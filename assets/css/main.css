@@ -2189,13 +2189,13 @@ input, select, textarea {
 		overflow-x: hidden;
 		overflow-y: auto;
 		border-radius: 20px;
-		transition: box-shadow 1s ease-in-out;
+		transition: box-shadow 0.25s ease-in-out;
 	}
 
 	.panel:hover {
 		box-shadow: 
-			0px 7.5px 5px rgb(255, 255, 255, 0.15),
-			0px -7.5px 5px rgb(255, 255, 255, 0.15);
+			0px 20px 20px rgb(255, 255, 255, 0.15),
+			0px -20px 20px rgb(255, 255, 255, 0.15);
 	}
 		
 		.panel > * {
