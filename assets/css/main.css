@@ -217,7 +217,7 @@ input, select, textarea {
 			height: 100%;
 			z-index: -1;
 			background-attachment: fixed;
-			background-color: #141414;
+			background-color: #1F1F1F;
 			background-repeat: repeat, repeat-x;
 			background-size: 128px 128px, cover;
 		}
