@@ -2188,8 +2188,12 @@ input, select, textarea {
 		height: 100%;
 		overflow-x: hidden;
 		overflow-y: auto;
+		border-radius: 20px;
 	}
 
+	.panel:hover {
+		transform: scale(1.15);
+	}
 		.panel > * {
 			position: relative;
 			min-width: 10rem;
