@@ -218,7 +218,6 @@ input, select, textarea {
 			z-index: -1;
 			background-attachment: fixed;
 			background-color: #ffffff;
-			background-image: url("../../images/overlay.png"), url("https://www.loliapi.com/acg/");
 			background-repeat: repeat, repeat-x;
 			background-size: 128px 128px, cover;
 		}
